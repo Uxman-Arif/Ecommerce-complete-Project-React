@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+// import './App.css'
 import { Button } from 'primereact/button'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Button label='submit' icon='pi pi-check' />
+    
     </>
   )
 }

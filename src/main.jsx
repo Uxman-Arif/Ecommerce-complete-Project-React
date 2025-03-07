@@ -6,11 +6,13 @@ import { PrimeReactProvider } from 'primereact/api'
 import 'primereact/resources/themes/bootstrap4-light-blue/theme.css'
 import 'primereact/resources/primereact.min.css'
 import 'primeicons/primeicons.css'
+import TemplateDemo from './components/menubar.jsx';
 
 createRoot(document.getElementById('root')).render(
   <PrimeReactProvider>
     <StrictMode>
+      <TemplateDemo />
       <App />
-    </StrictMode>,
+    </StrictMode>
   </PrimeReactProvider>
 )
